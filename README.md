@@ -2,6 +2,35 @@
 
 This project analyzes Play Store app reviews to uncover insights using Natural Language Processing (NLP), visualization, and data cleaning techniques. The final output includes sentiment analysis and a Tableau dashboard for business storytelling.
 
+## Project Description
+
+In an era where mobile applications are a dominant part of digital engagement, understanding user feedback is crucial to building successful apps. This project focuses on analyzing user reviews from the Google Play Store to uncover meaningful insights using **Natural Language Processing (NLP)** and **data visualization**.
+
+As of **July 2024**, businesses heavily rely on **automated sentiment analysis** and **real-time feedback interpretation** to iterate on product development. Instead of manually reading thousands of user reviews, this project demonstrates how text data can be programmatically **cleaned**, **analyzed**, and **visualized** to generate actionable insights.
+
+We chose this project for several reasons:
+- App reviews are rich in unstructured data that hold valuable opinions from real users.
+- Manual review analysis is time-consuming and unscalable.
+- NLP provides scalable methods to quantify emotions and patterns in text data.
+- Tableau offers an intuitive and interactive medium for business stakeholders to explore insights without technical barriers.
+
+By combining **Python-based NLP techniques** with **Tableau dashboards**, this project enables:
+- **Classification of user sentiment** across thousands of reviews.
+- Identification of **recurring issues**, **feature requests**, or **positive trends**.
+- A **visual storytelling platform** to share findings with non-technical teams like Product, UX, and Marketing.
+
+### Goals & Outcomes
+- Automatically determine if reviews are **positive**, **neutral**, or **negative**.
+- Extract most common words/themes from each sentiment class.
+- Create a visual layer that clearly communicates data-driven findings.
+- Build an end-to-end pipeline that’s **reusable** and **scalable** for other app datasets.
+
+### Key Takeaways (as of July 2024)
+- **AI-enabled sentiment analysis** is no longer optional—it's foundational to modern product feedback loops.
+- Visualization tools like **Tableau** bridge the gap between data teams and decision-makers.
+- Unstructured text, when cleaned and analyzed, reveals product pain points and user priorities that numbers alone cannot.
+- This project highlights the importance of **cross-functional collaboration** between data engineers, analysts, and business teams to drive continuous app improvement.
+
 ---
 
 ## Project Overview
