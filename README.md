@@ -26,7 +26,7 @@ By combining **Python-based NLP techniques** with **Tableau dashboards**, this p
 - Build an end-to-end pipeline that’s **reusable** and **scalable** for other app datasets.
 
 ### Key Takeaways (as of July 2024)
-- **AI-enabled sentiment analysis** is no longer optional—it's foundational to modern product feedback loops.
+- **AI-enabled sentiment analysis** is no longer optional, it's foundational to modern product feedback loops.
 - Visualization tools like **Tableau** bridge the gap between data teams and decision-makers.
 - Unstructured text, when cleaned and analyzed, reveals product pain points and user priorities that numbers alone cannot.
 - This project highlights the importance of **cross-functional collaboration** between data engineers, analysts, and business teams to drive continuous app improvement.
@@ -77,6 +77,24 @@ jupyter notebook notebooks/App_Review_Analysis.ipynb
 ## Tableau Dashboard
 The cleaned data (cleaned_reviews.csv) was used to create an interactive Tableau dashboard.
 Link to Tableau Public Dashboard
+
+
+## Sentiment Analysis
+The heart of this project lies in applying Natural Language Processing (NLP) to perform sentiment classification on app reviews. We used the TextBlob library to classify each review into positive, negative, or neutral categories based on polarity scores.
+
+Key steps:
+
+Preprocessed and cleaned the raw text to remove noise such as stopwords, special characters, and HTML tags.
+
+Tokenized and lemmatized the review text to normalize linguistic patterns.
+
+Applied sentiment scoring using TextBlob, which assigns polarity values between -1 (negative) to +1 (positive).
+
+Mapped polarity scores into sentiment classes to quantify user emotions across the dataset.
+
+Aggregated sentiment distributions by app category, rating, and time to identify broader patterns.
+
+This sentiment analysis enables businesses to monitor user perception in real-time and make data-informed product decisions.
 
 
 ## Key Insights
