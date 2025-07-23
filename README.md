@@ -76,7 +76,8 @@ jupyter notebook notebooks/App_Review_Analysis.ipynb
 
 ## Tableau Dashboard
 The cleaned data (cleaned_reviews.csv) was used to create an interactive Tableau dashboard.
-Link to Tableau Public Dashboard
+
+[Click here to view the Tableau Dashboard](https://public.tableau.com/views/GooglePlayStoreAppReviewsSentimentDashboard/GooglePlayStoreAppReviewSentimentDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ## Sentiment Analysis
